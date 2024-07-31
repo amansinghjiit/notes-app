@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect, useReducer } from 'react';
 import { FaTrash } from 'react-icons/fa';
-import { db } from './firebase/firebaseInit';
 
 function notesReducer(state, action) {
   switch (action.type) {
